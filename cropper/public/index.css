@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'PingFangSC';
+    font-size: 20px !important;
+}
+
+body {
+    -webkit-text-size-adjust: 100%!important; //禁止用户缩放字体
+}
+
+.img_pop_up {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 999;
+    position: absolute;
+    display: none;
+}
+
+.self_img_pop_up {
+    background: #fff;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 96%;
+    height: 80%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.cut_img {
+    width: 94%;
+    height: 75%;
+    margin: 0 auto;
+}
+
+.cut_img img {
+    width: 100%;
+    height: 100%;
+}
+
+.confirm_button {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.rotate_div {
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.picture_div {
+    border: none;
+    width: 100%;
+    height: 25%;
+    background: green;
+    border-radius: 0.5rem;
+    font-size: .8rem;
+    color: #fff;
+    position: relative;
+    display: table;
+}
+
+.picture_div span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.picture_div input {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.confirm_button button {
+    border: none;
+    width: 48%;
+    height: 40%;
+    background: green;
+    border-radius: 0.5rem;
+    font-size: .8rem;
+    color: #fff;
+}

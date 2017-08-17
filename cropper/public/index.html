@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lib/zepto.1.1.6.js"></script>
+    <link href="./lib/cropper.min.css" rel="stylesheet">
+    <script src="./lib/cropper.esm.js"></script>
+    <script src="./index.js"></script>
+    <link href="./index.css" rel="stylesheet">
+</head>
+
+<body>
+    <button class="self_logo_up">上传图片</button>
+    <div class="img_pop_up">
+        <div class="self_img_pop_up">
+            <div class="cut_img">
+                <img id="imgTest" src="" alt="">
+            </div>
+            <div class="confirm_button">
+                <div class="picture_div">
+                    <input type="file" id="fileTest">
+                    <span>选择图片</span>
+                </div>
+                <div class="rotate_div">
+                    <button class="rotate_left">向左旋转</button>
+                    <button class="rotate_right">向右旋转</button>
+                    <button class="cancel_choose">取消</button>
+                    <button class="confirm_choose">确定</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
